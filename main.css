@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 6px;
+}
+
+.inp {
+  width: 258px;
+  height: 60px;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #bce0fd;
+  outline: none;
+
+}
+
+.inp:disabled {
+  background-color: transparent;
+  border: 1px solid #bce0fd;
+}
+
+.btn {
+  width: 60px;
+  height: 60px;
+  background-color: #2699fb;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.btn.lg {
+  width: 126px;
+}
+
+.btn:active {
+  background-color: #007feb;
+}
